@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>How to create Olympic symbol using HTML and CSS</title>
+   <title>Create Olympic symbol using HTML and CSS</title>
    <style>
       /* Common styling for the logo container */
       .olympic-logo {
@@ -80,6 +80,13 @@
       .patch5:before {
          border-color: green;
       }
+      .olympic-logo{
+  transform: rotateY(0deg);
+  transition: transform 1s;
+}
+.olympic-logo:hover{
+  transform: rotateY(45deg);
+}
    </style>
 </head>
 <body>
